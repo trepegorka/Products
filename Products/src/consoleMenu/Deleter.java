@@ -15,6 +15,7 @@ public class Deleter {
     private final static String file = "src\\Base\\base.txt";
 
     protected static void DeleteProduct() throws Exception {
+        list.clear();
         ReadFile(); //add lines to array(list)
         Delist();//delete line from list
         FileWriter writer = new FileWriter(file, false);
