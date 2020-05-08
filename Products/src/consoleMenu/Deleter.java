@@ -24,7 +24,7 @@ public class Deleter {
             writer.append(line).append("\n");
         }
         writer.flush();
-        writer.close();
+        // writer.close();
         Menu.Start();
     }
 
@@ -35,8 +35,8 @@ public class Deleter {
         while (scanner.hasNextLine()) {
             list.add(scanner.nextLine());
         }
-        reader.close();
-        scanner.close();
+//        reader.close();
+//        scanner.close();
     }
 
     private static void Delist() throws Exception{
@@ -47,6 +47,6 @@ public class Deleter {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         short deleteNumber = Short.parseShort(reader.readLine());
         list.remove(deleteNumber-1);
-        reader.close();
+//        reader.close();
     }
 }

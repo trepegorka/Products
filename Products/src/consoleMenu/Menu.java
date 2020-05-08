@@ -9,7 +9,7 @@ public class Menu {
     public static void Start() throws Exception {
         ShowMainMenu();
         Choose();
-        reader.close();
+//        reader.close();
     }
 
     private static void ShowMainMenu() {
