@@ -31,7 +31,7 @@ public class Adder {
         int date = Integer.parseInt(reader.readLine());
 
         ReadToBase(Objects.requireNonNull(GetProduct(choose, name, weight, color, cost, date)));
-        reader.close();
+        //reader.close();
         Menu.Start();
     }
 
