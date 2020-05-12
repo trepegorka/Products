@@ -1,5 +1,0 @@
-FRUIT | Name: Apple1 | Weight:3.0 | Color: red | Cost: 3.0 | Days: 3
-FRUIT | Name: apple4 | Weight:55.0 | Color: red | Cost: 66.0 | Days: 3
-FRUIT | Name: apple5 | Weight:55.0 | Color: red | Cost: 66.0 | Days: 3
-FRUIT | Name: apple5 | Weight:55.0 | Color: red | Cost: 66.0 | Days: 3
-FRUIT | Name: apple5 | Weight:55.0 | Color: red | Cost: 66.0 | Days: 3

@@ -1,0 +1,1 @@
+FRUIT | Name: tre | Weight:3.0 | Color: 3 | Cost: 3.0 | Days: 3

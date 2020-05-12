@@ -31,8 +31,8 @@ public class Adder {
         int date = Integer.parseInt(reader.readLine());
 
         ReadToBase(Objects.requireNonNull(GetProduct(choose, name, weight, color, cost, date)));
-        //reader.close();
-        Menu.Start();
+
+//            reader.close();
     }
 
     private static Product GetProduct(int choose, String name, float weight, String color, float cost, int date) throws Exception {
@@ -56,6 +56,6 @@ public class Adder {
                 append(" | Cost: ").append(String.valueOf(product.getCost())).
                 append(" | Days: ").append(String.valueOf(product.getDate())).append("\n");
         writer.flush();
-        writer.close();
+//        writer.close();
     }
 }
